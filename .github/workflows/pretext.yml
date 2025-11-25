@@ -31,7 +31,7 @@ jobs:
         run: pip install pretext
 
       - name: Build PreTeXt web output
-        run: pretext build web --output-dir publication/web
+        run: pretext build web --dest publication/web
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -49,3 +49,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
