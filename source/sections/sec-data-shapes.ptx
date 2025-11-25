@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-data-shapes">
+  <title>Data Shapes</title>
+  
+  <introduction>
+    <p>
+      This section covers the concept of data shapes, including wide and long formats, and how to reshape data for different purposes.
+    </p>
+  </introduction>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>Understand different data shapes (wide vs long format)</p>
+      </li>
+      <li>
+        <p>Learn when to use different data formats</p>
+      </li>
+      <li>
+        <p>Master techniques for reshaping data</p>
+      </li>
+    </ul>
+  </objectives>
+
+  <subsection xml:id="subsec-wide-vs-long">
+    <title>Wide vs Long Format</title>
+    <p>
+      Wide format has one row per subject with multiple columns for different measurements. Long format has multiple rows per subject with a single measurement column.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-reshaping-data">
+    <title>Reshaping Data</title>
+    <p>
+      Different analyses and visualisations require different data shapes. Learning to reshape data between formats is an essential skill.
+    </p>
+  </subsection>
+
+</section>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-types-of-variability">
+  <title>Types of Variability</title>
+  
+  <introduction>
+    <p>
+      This section explores different sources and types of variability in data, which is fundamental to statistical understanding.
+    </p>
+  </introduction>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>Understand different sources of variability</p>
+      </li>
+      <li>
+        <p>Distinguish between natural and systematic variation</p>
+      </li>
+      <li>
+        <p>Recognise the implications of variability for analysis</p>
+      </li>
+    </ul>
+  </objectives>
+
+  <subsection xml:id="subsec-sources-of-variability">
+    <title>Sources of Variability</title>
+    <p>
+      Variability can come from many sources: natural variation in the phenomenon being studied, measurement error, sampling variation, and more.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-within-and-between-variation">
+    <title>Within and Between Variation</title>
+    <p>
+      Understanding the difference between variation within groups and variation between groups is crucial for many statistical analyses.
+    </p>
+  </subsection>
+
+</section>

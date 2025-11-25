@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-visualising-multidimensional-data">
+  <title>Visualising Multidimensional Data</title>
+  
+  <introduction>
+    <p>
+      This section explores techniques for visualising data with multiple variables, helping to reveal patterns and relationships.
+    </p>
+  </introduction>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>Learn techniques for visualising multiple variables</p>
+      </li>
+      <li>
+        <p>Understand how to choose appropriate visualisation methods</p>
+      </li>
+      <li>
+        <p>Create effective multidimensional visualisations</p>
+      </li>
+    </ul>
+  </objectives>
+
+  <subsection xml:id="subsec-scatter-plots-and-beyond">
+    <title>Scatter Plots and Beyond</title>
+    <p>
+      Scatter plots are fundamental for showing relationships between two variables. Extensions include adding colour, size, and faceting to represent additional dimensions.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-advanced-visualisation">
+    <title>Advanced Visualisation Techniques</title>
+    <p>
+      More advanced techniques include parallel coordinates, heatmaps, and small multiples, which can reveal complex patterns in high-dimensional data.
+    </p>
+  </subsection>
+
+</section>

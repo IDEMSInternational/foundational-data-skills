@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-exploring-data">
+  <title>Exploring Data</title>
+  
+  <introduction>
+    <p>
+      This topic builds your curiosity and practical habits for exploring new datasets. You'll learn quick, reliable ways to <q>get the lay of the land</q> so you don't get surprised later in analysis. We focus on pivot tables, graphs, and summary statistics to spot patterns, compare groups, and flag anomalies.
+    </p>
+  </introduction>
+
+  <objectives>
+    <introduction>
+      <p>By the end of this topic you will be able to:</p>
+    </introduction>
+    <ul>
+      <li>
+        <p>Construct basic pivot tables to summarise categorical and numeric variables (counts, proportions, means).</p>
+      </li>
+      <li>
+        <p>Produce and interpret core summaries and simple graphs (e.g., histograms, boxplots, bar charts) to describe distributions and compare groups.</p>
+      </li>
+      <li>
+        <p>Detect patterns, trends, and anomalies (e.g., outliers, missingness, group differences) and explain why they matter for further analysis.</p>
+      </li>
+      <li>
+        <p>Formulate follow-up questions and next steps (a short EDA plan) that justify what you would explore next and why.</p>
+      </li>
+    </ul>
+  </objectives>
+
+  <subsection xml:id="subsec-exploring-tasks">
+    <title>Your Tasks</title>
+    <p>
+      <ol>
+        <li>
+          <p>Watch the video introducing pivot tables, and complete the two STACK quizzes on pivot tables.</p>
+        </li>
+        <li>
+          <p>Participate in the forum: post one graph and one summary from the MICS Kenya data and respond to two peers.</p>
+        </li>
+        <li>
+          <p>Conduct a mini-EDA case study using pivot tables and plots, and submit a small interpretation.</p>
+        </li>
+      </ol>
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-exploring-resources">
+    <title>Resources and Technology</title>
+    <p>
+      <ul>
+        <li>
+          <p>Resources on Pivot Tables in GoogleSheets, OpenOffice, Excel, R and R-Instat.</p>
+        </li>
+        <li>
+          <p>Resources on Exploring data in R-Instat.</p>
+        </li>
+        <li>
+          <p>Additional resources on Pivot Tables in R-Instat (video and PDF).</p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-exploring-consume">
+    <title>Consume</title>
+    
+    <paragraphs>
+      <title>Task 1: Watch</title>
+      <p>
+        <em>Pivot Tables:</em> The following video gives an introduction to using pivot tables to explore your data.
+      </p>
+      <p>
+        [Video: Introduction to Pivot Tables]
+      </p>
+    </paragraphs>
+    
+    <paragraphs>
+      <title>Task 2: Practice (graded via STACK)</title>
+      <p>
+        Complete the two STACK quizzes on pivot tables. Your goal is to answer both questions using PivotTables. This is a mastery quiz which means you have unlimited attempts and the numbers change each time you start a new try.
+      </p>
+      <p>
+        Use any software you prefer (Excel, Google Sheets, LibreOffice, or R-Instat). See Resources for step-by-step guides if you need any help.
+      </p>
+    </paragraphs>
+    
+    <paragraphs>
+      <title>STACK Quiz on Pivot Tables</title>
+      <p>
+        Work through the following interactive examples. Your goal is to answer both questions using PivotTables.
+      </p>
+      <p>
+        <ul>
+          <li><p>This is a mastery quiz: unlimited attempts. Numbers change each time you start a new try.</p></li>
+          <li><p>Use any software you prefer (Excel, Google Sheets, LibreOffice, or R-Instat).</p></li>
+          <li><p>Need help? See Resources for step-by-step guides.</p></li>
+        </ul>
+      </p>
+    </paragraphs>
+    
+    <paragraphs>
+      <title>Support</title>
+      <p>
+        See Resources for step-by-step help in Excel, Google Sheets, LibreOffice, or R-Instat.
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="subsec-exploring-discuss">
+    <title>Discuss</title>
+    
+    <paragraphs>
+      <title>Discussion Board Forum</title>
+      <p>
+        Read or watch this guide on <q>Exploring data with graphs and summaries in R-Instat</q>.
+      </p>
+      <p>
+        <ul>
+          <li><p>The video can be viewed below: [Video: Exploring data with graphs and summaries]</p></li>
+          <li><p>The guide can be found under <q>Tutorial 1</q>.</p></li>
+          <li><p>Or, the guide can be downloaded from the resources.</p></li>
+        </ul>
+      </p>
+      <p>
+        Apply to MICS (Kenya) and generate one graph and one summary table that tell you something about the data.
+      </p>
+      <p>
+        <em>Post to the forum:</em>
+        <ul>
+          <li><p>Share your graph and summary (screenshots are fine).</p></li>
+          <li><p>One insight you discovered (2<ndash/>4 sentences).</p></li>
+          <li><p>One question this raises for further analysis.</p></li>
+        </ul>
+      </p>
+      <p>
+        <em>Reply to peers:</em> respond to at least two posts with either (a) a constructive question, or (b) a small suggestion that could improve their exploratory data analysis (e.g., <q>show % as well as counts</q>).
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="subsec-exploring-assignment">
+    <title>Assignment</title>
+    
+    <paragraphs>
+      <title>Mini-Exploratory Data Analysis with Pivot Tables and Plots (MICS Kenya)</title>
+      <p>
+        <em>What to do:</em>
+      </p>
+      <p>
+        Using any software of your choice produce:
+        <ol>
+          <li>
+            <p><em>Two pivot tables</em> that answer specific questions (e.g. How does a certain variable vary by region and urban/rural? Show counts and %).</p>
+          </li>
+          <li>
+            <p><em>Two plots</em> (e.g., histogram/boxplot for a numeric variable; bar chart for a categorical comparison).</p>
+          </li>
+          <li>
+            <p><em>Short interpretation</em> (max 500 words) explaining:
+              <ul>
+                <li><p>What the tables/plots show,</p></li>
+                <li><p>Any anomalies or data issues spotted,</p></li>
+                <li><p>Two follow-up questions you would investigate next and why.</p></li>
+              </ul>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </paragraphs>
+    
+    <paragraphs>
+      <title>Deliverables</title>
+      <p>
+        <ul>
+          <li><p>Upload a document with the four figures/tables embedded (clear titles/captions).</p></li>
+          <li><p>Brief method notes: where the data came from, which variables used, any filters applied.</p></li>
+        </ul>
+      </p>
+    </paragraphs>
+  </subsection>
+
+</section>

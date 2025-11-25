@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="./docinfo.ptx" />
+  <article xml:id="foundational-data-skills">
+    <title>Foundational Data Skills</title>
+    <subtitle>A Practical Introduction to Data Analysis</subtitle>
+    
+    <xi:include href="./frontmatter.ptx" />
+
+    <introduction>
+      <p>
+        The purpose of this course is to introduce learners to data skills. Through practical activities, learners will explore, organise, clean, and visualise data.
+      </p>
+    </introduction>
+
+    <xi:include href="./sections/sec-introduction-to-data-analysis.ptx" />
+    <xi:include href="./sections/sec-multilevel-data.ptx" />
+    <xi:include href="./sections/sec-exploring-data.ptx" />
+    <xi:include href="./sections/sec-cleaning-and-recoding-data.ptx" />
+    <xi:include href="./sections/sec-visualising-multidimensional-data.ptx" />
+    <xi:include href="./sections/sec-data-shapes.ptx" />
+    <xi:include href="./sections/sec-handling-factors.ptx" />
+    <xi:include href="./sections/sec-missing-values.ptx" />
+    <xi:include href="./sections/sec-types-of-variability.ptx" />
+    <xi:include href="./sections/sec-measuring-variability.ptx" />
+    <xi:include href="./sections/sec-accounting-for-variability.ptx" />
+
+  </article>
+</pretext>

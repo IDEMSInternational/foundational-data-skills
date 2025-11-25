@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-accounting-for-variability">
+  <title>Accounting for Variability</title>
+  
+  <introduction>
+    <p>
+      This section covers techniques for properly accounting for variability when drawing conclusions from data.
+    </p>
+  </introduction>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>Understand why accounting for variability matters</p>
+      </li>
+      <li>
+        <p>Learn techniques for handling variability in analysis</p>
+      </li>
+      <li>
+        <p>Make appropriate conclusions considering variability</p>
+      </li>
+    </ul>
+  </objectives>
+
+  <subsection xml:id="subsec-confidence-intervals">
+    <title>Confidence Intervals</title>
+    <p>
+      Confidence intervals provide a range of plausible values for a parameter, taking into account the variability in our data.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-variability-in-conclusions">
+    <title>Drawing Conclusions with Variability</title>
+    <p>
+      When making conclusions from data, it's essential to consider the uncertainty introduced by variability. This affects how we interpret results and make decisions.
+    </p>
+  </subsection>
+
+</section>
