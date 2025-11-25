@@ -17,8 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -26,10 +27,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install PreTeXt-CLI
-      - run: pip install pretext
+      - name: Install PreTeXt CLI
+        run: pip install pretext
 
-      - name: Build web output
+      - name: Build PreTeXt web output
         run: pretext build web --output-dir publication/web
 
       - name: Upload artifact
@@ -43,6 +44,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
