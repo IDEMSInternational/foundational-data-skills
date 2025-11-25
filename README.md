@@ -25,28 +25,6 @@ This course is built using [PreTeXt](https://pretextbook.org/) and contains 11 s
 - Python 3.10 or higher
 - PreTeXt CLI (`pip install pretext`)
 
-### Build Commands
-
-Build the web version:
-```bash
-pretext build web
-```
-
-View the course locally:
-```bash
-pretext view web
-```
-
-Build a PDF version:
-```bash
-pretext build print
-```
-
-Build all deployable targets:
-```bash
-pretext build --deploys
-```
-
 ## Project Structure
 
 ```
