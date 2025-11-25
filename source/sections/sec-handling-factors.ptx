@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-handling-factors">
+  <title>Handling Factors</title>
+  
+  <introduction>
+    <p>
+      This section covers working with categorical variables (factors), including how to create, manipulate, and analyse them effectively.
+    </p>
+  </introduction>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>Understand what factors are and why they matter</p>
+      </li>
+      <li>
+        <p>Learn to create and modify factor levels</p>
+      </li>
+      <li>
+        <p>Work effectively with categorical data</p>
+      </li>
+    </ul>
+  </objectives>
+
+  <subsection xml:id="subsec-understanding-factors">
+    <title>Understanding Factors</title>
+    <p>
+      Factors are used to represent categorical data. They have levels that define the possible values the variable can take.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-manipulating-factors">
+    <title>Manipulating Factor Levels</title>
+    <p>
+      Common operations include reordering levels, combining levels, and dropping unused levels. These operations are important for analysis and visualisation.
+    </p>
+  </subsection>
+
+</section>

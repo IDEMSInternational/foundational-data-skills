@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-exploring-data">
+  <title>Exploring Data</title>
+  
+  <introduction>
+    <p>
+      This section covers techniques for exploring and understanding data before performing formal analysis.
+    </p>
+  </introduction>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>Learn techniques for initial data exploration</p>
+      </li>
+      <li>
+        <p>Understand summary statistics and their uses</p>
+      </li>
+      <li>
+        <p>Identify patterns and anomalies in data</p>
+      </li>
+    </ul>
+  </objectives>
+
+  <subsection xml:id="subsec-summary-statistics">
+    <title>Summary Statistics</title>
+    <p>
+      Summary statistics provide a quick overview of your data. These include measures of central tendency (mean, median, mode) and measures of spread (range, variance, standard deviation).
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-data-distributions">
+    <title>Understanding Data Distributions</title>
+    <p>
+      Exploring the distribution of your data helps you understand its shape, identify outliers, and make decisions about appropriate analysis methods.
+    </p>
+  </subsection>
+
+</section>

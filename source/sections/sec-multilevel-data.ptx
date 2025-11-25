@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-multilevel-data">
+  <title>Multilevel Data</title>
+  
+  <introduction>
+    <p>
+      Many real-world problems require data collected at multiple levels; for example, individuals within households, classrooms within schools, or schools within districts. This topic introduces the concept of multilevel data structures, explaining how they are organised, why they matter, and how they can be analysed effectively.
+    </p>
+  </introduction>
+
+  <objectives>
+    <introduction>
+      <p>By the end of this topic you will be able to:</p>
+    </introduction>
+    <ul>
+      <li>
+        <p>Identify examples of datasets with multiple levels.</p>
+      </li>
+      <li>
+        <p>Describe the characteristics and structure of multilevel data.</p>
+      </li>
+      <li>
+        <p>Apply basic methods to explore and prepare multilevel data for analysis.</p>
+      </li>
+      <li>
+        <p>Analyse multilevel datasets using appropriate statistical techniques.</p>
+      </li>
+    </ul>
+  </objectives>
+
+  <subsection xml:id="subsec-multilevel-tasks">
+    <title>Your Tasks</title>
+    <p>
+      <ol>
+        <li>
+          <p>Read and watch the materials on the concept of Multilevel Data, and respond to the discussion board.</p>
+        </li>
+        <li>
+          <p>Engage in a forum discussion on challenges with multivariate data.</p>
+        </li>
+        <li>
+          <p>Attempt the assignment on giving 300 words on either the MICS data or another data set.</p>
+        </li>
+      </ol>
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-multilevel-resources">
+    <title>Resources and Technology</title>
+    <p>
+      <ul>
+        <li>
+          <p>CAST Online Statistics Textbook <mdash/> Section 1.2.6: Multilevel Data <mdash/> <url href="https://cast.idems.international/">CAST</url></p>
+        </li>
+        <li>
+          <p>MICS (Multiple Indicator Cluster Surveys) dataset and documentation</p>
+        </li>
+        <li>
+          <p>Video on multilevel structures</p>
+        </li>
+      </ul>
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-multilevel-consume">
+    <title>Consume</title>
+    <p>
+      <ul>
+        <li>
+          <p><em>Watch:</em> the introductory video on multilevel data (focus on real-world examples and why nested structures are common). <mdash/> <url href="https://www.youtube.com/watch?v=BKDsteT36Io">Video link</url></p>
+        </li>
+        <li>
+          <p><em>Read:</em> CAST Section 1.2.6 - Multilevel Data. <mdash/> <url href="https://cast.idems.international/">CAST link</url></p>
+        </li>
+      </ul>
+    </p>
+    
+    <paragraphs>
+      <title>Consume: Discussion Board Forum</title>
+      <p>
+        <ul>
+          <li><p>How did you find the quiz on handling multilevel data?</p></li>
+          <li><p>If the data were stored in one data frame instead of three, what columns (markers) would you need to preserve the levels (e.g., SchoolID, ClassID, StudentID)? What might you gain or lose?</p></li>
+          <li><p>Share any questions or <q>gotchas</q> you noticed.</p></li>
+          <li><p>Post any questions or comments in this forum.</p></li>
+        </ul>
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="subsec-multilevel-discuss">
+    <title>Discuss</title>
+    <p>
+      Respond to the discussion forum below. There are two discussion boards to post in, and respond to at least two other messages in for each discussion board.
+    </p>
+    
+    <paragraphs>
+      <title>Discussion Board 1 Forum</title>
+      <p>
+        CAST labels multilevel data as <q>advanced</q>, yet it is the first topic in this foundational course. Why do you think we introduce it so early? What advantages does starting with multilevel thinking give us when working with real-world data?
+      </p>
+    </paragraphs>
+    
+    <paragraphs>
+      <title>Discussion Board 2 Forum</title>
+      <p>
+        Below are three prompts. Start a post relating to at least one of these three. In addition, respond to at least two other posts.
+      </p>
+      <p>
+        Start one new thread responding to A, B, or C. Reply to at least two classmates <mdash/> e.g., by asking a clarifying question or suggesting an additional level/summary they could try. Keep replies constructive (50<ndash/>100 words each).
+      </p>
+      
+      <p>
+        <em>Prompt A: Spot The Levels</em>
+      </p>
+      <p>
+        After watching the video and reading CAST 1.2.6, pick one part of the MICS data and:
+        <ul>
+          <li><p>List different levels you see (e.g., lowest to highest level).</p></li>
+          <li><p>Give one example question you could answer at each of two different levels.</p></li>
+          <li><p>Name one risk of ignoring the multilevel structure.</p></li>
+        </ul>
+      </p>
+      
+      <p>
+        <em>Prompt B: Same Question, Different Level</em>
+      </p>
+      <p>
+        Choose a simple question (e.g., Are reading scores improving?).
+        <ul>
+          <li><p>Answer it at two levels (e.g., student-level and school-level), using either your imagination or quick summaries already provided in the dataset.</p></li>
+          <li><p>Explain how the interpretation might differ between levels.</p></li>
+        </ul>
+      </p>
+      
+      <p>
+        <em>Prompt C: Why it Matters</em>
+      </p>
+      <p>
+        Think of an example from your own life or work where information could be grouped at more than one level (e.g., sports team statistics, sales data by store and region, student results by class and district).
+        <ul>
+          <li><p>Describe the two or more levels.</p></li>
+          <li><p>Explain why looking at both levels might be important in understanding the data accurately.</p></li>
+        </ul>
+      </p>
+    </paragraphs>
+  </subsection>
+
+  <subsection xml:id="subsec-multilevel-attempt">
+    <title>Attempt</title>
+    <p>
+      Practise reading multilevel data by telling the story of a single household using all four MICS Kenya files. Keep it simple: no joins, no pivots, no graphs <mdash/> just careful look-ups guided by the metadata.
+    </p>
+    
+    <paragraphs>
+      <title>Files you will use</title>
+      <p>
+        Four files are given containing data on:
+        <ul>
+          <li><p>Households (one row per household)</p></li>
+          <li><p>Household Listing / Members (one row per person in the household)</p></li>
+          <li><p>Women (15<ndash/>49) (one row per eligible woman)</p></li>
+          <li><p>Children (Under-5) (one row per eligible child)</p></li>
+        </ul>
+        There is an additional file which explains the variable names for these four data sets.
+      </p>
+    </paragraphs>
+    
+    <paragraphs>
+      <title>Key idea</title>
+      <p>
+        The column <c>HID</c> is a unique household ID that appears in all four files. If <c>HID</c> is not present in a file, use the household identifiers noted in the metadata, e.g., cluster + household.
+      </p>
+    </paragraphs>
+    
+    <paragraphs>
+      <title>Your task (150<ndash/>250 words)</title>
+      <p>
+        Pick one household by <c>HID</c> and write a short report that uses information from each of the four files. Use plain language; include variable names once where helpful.
+      </p>
+      <p>
+        Be level-aware: household facts come from the Households file; person facts from the Members file; the woman's facts from the Women file; under-5 facts from the Children file.
+      </p>
+      <p>
+        <em>Submission:</em> Upload a document or plain text containing your 150<ndash/>250 word report, and a short <q>Variables used</q> list (just the codes you looked at, e.g., HI10, HL4A, MELEVEL, IM1).
+      </p>
+    </paragraphs>
+    
+    <paragraphs>
+      <title>Example</title>
+      <p>
+        <em>Style only <mdash/> pick whichever variables you'd like, and choose a different household ID.</em>
+      </p>
+      <p>
+        HID 135050 had an interview completed on 19 Sep 2000. The household has 6 members, including 1 eligible woman and 2 under-5s. The roster lists 3 females and 3 males: two adults (head and spouse, 29 and 31) and four children aged 1, 5, 7, 8; the 7- and 8-year-olds are currently in school. The interviewed woman's education is Secondary+. Both under-5s have vaccination cards seen; the 5-year-old attends early learning with 25 hours in the last week.
+      </p>
+      <p>
+        <em>Codes used:</em>
+        <ul>
+          <li><p>From the household data: <c>HID</c> for the ID; <c>HI3D</c>, <c>HI3M</c>, <c>HI3Y</c> for the date; <c>HI10</c> for the result of interview; <c>HIMEM</c> for the number of members in the household; <c>HI11</c> for the number of eligible women; <c>HI13</c> for eligible children.</p></li>
+          <li><p>From the household members data: <c>HID</c> for the ID; <c>HL3</c> for sex; <c>HL4A</c> for relationship; <c>HL4</c> for age; <c>ED15</c> for school.</p></li>
+          <li><p>From the women data: <c>HID</c> for the ID; <c>ED15</c> for highest school grade.</p></li>
+          <li><p>From the children data: <c>HID</c> for the ID; <c>HL3</c> for sex; <c>BR8</c> for early learning attendance; <c>BR9</c> for hours of early learning in last 7 days; <c>IM1</c> for the vaccination card.</p></li>
+        </ul>
+      </p>
+    </paragraphs>
+    
+    <paragraphs>
+      <title>Download MICS Data</title>
+      <p>
+        <ul>
+          <li><p><c>children.xlsx</c></p></li>
+          <li><p><c>household_members.xlsx</c></p></li>
+          <li><p><c>household.xlsx</c></p></li>
+          <li><p><c>MICS_Kenya_Metadata.doc</c></p></li>
+          <li><p><c>women.xlsx</c></p></li>
+        </ul>
+      </p>
+    </paragraphs>
+  </subsection>
+
+</section>

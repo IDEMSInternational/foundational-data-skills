@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-measuring-variability">
+  <title>Measuring Variability</title>
+  
+  <introduction>
+    <p>
+      This section covers the various statistical measures used to quantify variability in data.
+    </p>
+  </introduction>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>Learn common measures of variability</p>
+      </li>
+      <li>
+        <p>Understand when to use different measures</p>
+      </li>
+      <li>
+        <p>Interpret variability measures correctly</p>
+      </li>
+    </ul>
+  </objectives>
+
+  <subsection xml:id="subsec-common-measures">
+    <title>Common Measures of Variability</title>
+    <p>
+      Key measures include range, interquartile range (IQR), variance, standard deviation, and coefficient of variation. Each has its strengths and appropriate uses.
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-choosing-measures">
+    <title>Choosing Appropriate Measures</title>
+    <p>
+      The choice of measure depends on the data type, distribution shape, and the presence of outliers. Understanding these factors helps in selecting the right measure.
+    </p>
+  </subsection>
+
+</section>
