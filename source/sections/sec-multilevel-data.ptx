@@ -51,11 +51,9 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
   </p>
 </aside>
 
-  <!-- Force a real break in PDF/LaTeX and in HTML print -->
-  <raw format="latex">\clearpage</raw>
-  <raw format="html"><![CDATA[<div style="page-break-before:always;"></div>]]></raw>
+  <pagebreak/>
 
-  <title>In this section</title>
+  <title>In this section...</title>
 
   <introduction>
     <p>
