@@ -53,7 +53,8 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
 
   <pagebreak/>
 
-  <title>In this section...</title>
+  <subsection xml:id="subsec-multilevel-story">
+    <title>In this section...</title>
 
   <introduction>
     <p>
@@ -271,5 +272,5 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
       </p>
     </paragraphs>
   </subsection>
-
+  </subsection>
 </section>
