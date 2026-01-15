@@ -102,6 +102,7 @@ Ignoring that structure doesn’t simplify the analysis: it distorts it.
       </li>
     </ul>
   </objectives>
+  </subsection>
 
   <subsection xml:id="subsec-multilevel-tasks">
     <title>Your Tasks</title>
@@ -293,5 +294,5 @@ Ignoring that structure doesn’t simplify the analysis: it distorts it.
       </p>
     </paragraphs>
   </subsection>
-  </subsection>
 </section>
+
