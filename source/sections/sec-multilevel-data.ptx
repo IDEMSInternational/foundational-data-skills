@@ -2,7 +2,32 @@
 
 <section xml:id="sec-multilevel-data">
   <title>Multilevel Data</title>
-  
+
+  <subsection xml:id="subsec-multilevel-story">
+    <title>Story</title>
+    <p>In the early 1970s, concern was growing about gender equality in higher education in the United States. Against this backdrop, an analysis of admissions data from the University of California, Berkeley caught public attention.</p>
+    <p>The numbers seemed clear. When all applications for one year were added together, men were admitted at a higher rate than women. Across the whole university, 44% of male applicants were accepted, compared to just 35% of female applicants. Same institution. Same year. A visible gap. Newspapers reported the figures, and public concern followed. At first glance, the conclusion seemed unavoidable: women were being treated unfairly.</p>
+    <p>Before any action was taken, however, a group of statisticians paused. Rather than asking what the numbers showed, they asked a different question: how were these decisions actually made?</p>
+    <p>Admissions at Berkeley were not decided by a single central committee. There was no room where all applications were laid out together and judged side by side. Instead, each academic department – physics, history, engineering, literature – made its own decisions. Each department had its own standards, its own number of places, and its own level of competition.</p>
+    <p>The university-wide figures were not wrong. But they were telling only part of the story.</p>
+    <p>So the data was reorganised. Nothing was changed. No applications were removed or reweighted. The same information was simply looked at in a different way.</p>
+    <p>Instead of lumping all applicants together, the statisticians looked at admissions department by department. They asked a simple question: within each department, were women less likely to be admitted than men?</p>
+    <p>What they found surprised almost everyone.</p>
+    <p>In most departments, women were admitted at the same rate as men. In several departments, they were admitted at a higher rate. The apparent discrimination seemed to vanish.</p>
+    <p>So how could women have lower acceptance rates overall if they were not being disadvantaged within departments?</p>
+    <p>The answer lay in where people applied. On average, women tended to apply to departments that were more competitive — departments with fewer places and lower acceptance rates for everyone. Men, on average, applied to departments with higher acceptance rates. When all departments were blended together into a single set of numbers, these differences disappeared from view.</p>
+    <p>The university was not discriminating. The way the numbers were combined was.</p>
+    <p>By mixing together applications from very different departments, the analysis treated unlike situations as if they were the same. It blurred two distinct questions: how applicants were treated within departments, and how departments differed from one another. Treating these as a single problem produced a story that felt convincing, but was wrong.</p>
+    <p>This was not a mistake in arithmetic. The calculations were correct. The mistake was in how the situation was understood. The data reflected a layered reality: applicants belonged to departments, and departments belonged to a university. Flattening that layered structure into one set of averages erased important context.</p>
+    <p>The consequences were not trivial. A university’s reputation was at stake. A serious accusation was made. Public trust in data-driven conclusions was affected — all because the way decisions were made in the real world did not match the way the data was analysed.</p>
+    <p>This case has since become one of the most famous examples of how misleading averages can be. It is often referred to as Simpson’s Paradox. But the deeper lesson is simpler and more important.</p>
+    <p>Multilevel data is not about advanced models or complicated equations. It is about recognising how the world is organised.</p>
+    <p>Whenever students belong to schools, patients visit clinics, farmers manage plots of land, or survey responses come from households, the data already has structure. Ignoring that structure does not make analysis easier. It makes it dangerous.</p>
+    <p><em>This example comes from Bickel, Hammel &amp; O’Connell (1975), Science.
+Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admissions: Data from Berkeley: Measuring bias is harder than is usually assumed, and the evidence is sometimes contrary to expectation. Science, 187(4175), pp.398-404.</em></p>
+  </subsection>
+
+  <pagebreak/>
   <introduction>
     <p>
       Many real-world problems require data collected at multiple levels; for example, individuals within households, classrooms within schools, or schools within districts. This topic introduces the concept of multilevel data structures, explaining how they are organised, why they matter, and how they can be analysed effectively.
