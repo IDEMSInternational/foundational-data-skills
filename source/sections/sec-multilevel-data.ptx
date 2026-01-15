@@ -27,7 +27,10 @@
 Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admissions: Data from Berkeley: Measuring bias is harder than is usually assumed, and the evidence is sometimes contrary to expectation. Science, 187(4175), pp.398-404.</em></p>
   </subsection>
 
-  <pagebreak/>
+  <!-- Force a real break in PDF/LaTeX and in HTML print -->
+  <raw format="latex">\clearpage</raw>
+  <raw format="html"><![CDATA[<div style="page-break-before:always;"></div>]]></raw>
+
   <introduction>
     <p>
       Many real-world problems require data collected at multiple levels; for example, individuals within households, classrooms within schools, or schools within districts. This topic introduces the concept of multilevel data structures, explaining how they are organised, why they matter, and how they can be analysed effectively.
