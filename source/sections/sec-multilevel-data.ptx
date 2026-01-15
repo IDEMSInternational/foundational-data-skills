@@ -27,9 +27,35 @@
 Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admissions: Data from Berkeley: Measuring bias is harder than is usually assumed, and the evidence is sometimes contrary to expectation. Science, 187(4175), pp.398-404.</em></p>
   </subsection>
 
+<aside xml:id="aside-multilevel-kidney-stones">
+  <title>This mistake isn't rare. Here's another time it happened.</title>
+
+  <p>
+    In the 1980s, researchers compared two surgical treatments for kidney stones: open surgery and percutaneous nephrolithotomy. When all patients were analysed together, percutaneous nephrolithotomy appeared to be more successful overall. On the surface, it looked like the better treatment.
+  </p>
+
+  <p>
+    But kidney stones vary in size, and size matters. When the researchers separated patients into two groups—those with small stones and those with large stones—the picture changed. Within both groups, open surgery had higher success rates. It worked better for small stones, and it also worked better for large stones.
+  </p>
+
+  <p>
+    The apparent contradiction came from how treatments were assigned. Patients with small stones were much more likely to receive percutaneous nephrolithotomy, while patients with large or complex stones were more likely to receive open surgery. When stone size was ignored and all patients were combined into one analysis, the treatment taking on the harder cases appeared to perform worse.
+  </p>
+
+  <p>
+    <em>Takeaway:</em> When outcomes depend on an underlying grouping—such as disease severity—combining data across those groups can reverse the apparent effect of a treatment.
+  </p>
+
+  <p>
+    <em>Source:</em> Charig, Webb, Payne, &amp; Wickham (1986), <em>British Medical Journal</em>.
+  </p>
+</aside>
+
   <!-- Force a real break in PDF/LaTeX and in HTML print -->
   <raw format="latex">\clearpage</raw>
   <raw format="html"><![CDATA[<div style="page-break-before:always;"></div>]]></raw>
+
+  <title>In this section</title>
 
   <introduction>
     <p>
