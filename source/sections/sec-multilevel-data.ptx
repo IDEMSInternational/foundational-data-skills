@@ -1,35 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-multilevel-data">
-  <subsection xml:id="subsec-multilevel-story">
-    <title>Story</title>
-    <p>In the early 1970s, concern was growing about gender equality in higher education in the United States. Against this backdrop, an analysis of admissions data from the University of California, Berkeley caught public attention.</p>
-    <p>The numbers seemed clear. When all applications for one year were added together, men were admitted at a higher rate than women. Across the whole university, 44% of male applicants were accepted, compared to just 35% of female applicants. Same institution. Same year. A visible gap. Newspapers reported the figures, and public concern followed. At first glance, the conclusion seemed unavoidable: women were being treated unfairly.</p>
-    <p>Before any action was taken, however, a group of statisticians paused. Rather than asking what the numbers showed, they asked a different question: how were these decisions actually made?</p>
-    <p>Admissions at Berkeley were not decided by a single central committee. There was no room where all applications were laid out together and judged side by side. Instead, each academic department – physics, history, engineering, literature – made its own decisions. Each department had its own standards, its own number of places, and its own level of competition.</p>
-    <p>The university-wide figures were not wrong. But they were telling only part of the story.</p>
-    <p>So the data was reorganised. Nothing was changed. No applications were removed or reweighted. The same information was simply looked at in a different way.</p>
-    <p>Instead of lumping all applicants together, the statisticians looked at admissions department by department. They asked a simple question: within each department, were women less likely to be admitted than men?</p>
-    <p>What they found surprised almost everyone.</p>
-    <p>In most departments, women were admitted at the same rate as men. In several departments, they were admitted at a higher rate. The apparent discrimination seemed to vanish.</p>
-    <p>So how could women have lower acceptance rates overall if they were not being disadvantaged within departments?</p>
-    <p>The answer lay in where people applied. On average, women tended to apply to departments that were more competitive — departments with fewer places and lower acceptance rates for everyone. Men, on average, applied to departments with higher acceptance rates. When all departments were blended together into a single set of numbers, these differences disappeared from view.</p>
-    <p>The university was not discriminating. The way the numbers were combined was.</p>
-    <p>By mixing together applications from very different departments, the analysis treated unlike situations as if they were the same. It blurred two distinct questions: how applicants were treated within departments, and how departments differed from one another. Treating these as a single problem produced a story that felt convincing, but was wrong.</p>
-    <p>This was not a mistake in arithmetic. The calculations were correct. The mistake was in how the situation was understood. The data reflected a layered reality: applicants belonged to departments, and departments belonged to a university. Flattening that layered structure into one set of averages erased important context.</p>
-    <p>The consequences were not trivial. A university’s reputation was at stake. A serious accusation was made. Public trust in data-driven conclusions was affected — all because the way decisions were made in the real world did not match the way the data was analysed.</p>
-    <p>This case has since become one of the most famous examples of how misleading averages can be. It is often referred to as Simpson’s Paradox. But the deeper lesson is simpler and more important.</p>
-    <p>Multilevel data is not about advanced models or complicated equations. It is about recognising how the world is organised.</p>
-    <p>Whenever students belong to schools, patients visit clinics, farmers manage plots of land, or survey responses come from households, the data already has structure. Ignoring that structure does not make analysis easier. It makes it dangerous.</p>
-    <p><em>This example comes from Bickel, Hammel &amp; O’Connell (1975), Science.
-Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admissions: Data from Berkeley: Measuring bias is harder than is usually assumed, and the evidence is sometimes contrary to expectation. Science, 187(4175), pp.398-404.</em></p>
-  </subsection>
-
-  <pagebreak/>
-
+  <title>Multilevel Data</title>
+  
   <introduction>
     <p>
-      Many real-world problems require data collected at multiple levels; for example, individuals within households, classrooms within schools, or schools within districts. This topic introduces the [...]
+      Many real-world problems require data collected at multiple levels; for example, individuals within households, classrooms within schools, or schools within districts. This topic introduces the concept of multilevel data structures, explaining how they are organised, why they matter, and how they can be analysed effectively.
     </p>
   </introduction>
 
@@ -92,7 +68,7 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
     <p>
       <ul>
         <li>
-          <p><em>Watch:</em> the introductory video on multilevel data (focus on real-world examples and why nested structures are common). <mdash/> <url href="https://www.youtube.com/watch?v=BKDsteT3">Introductory video</url></p>
+          <p><em>Watch:</em> the introductory video on multilevel data (focus on real-world examples and why nested structures are common). <mdash/> <url href="https://www.youtube.com/watch?v=BKDsteT36Io">Video link</url></p>
         </li>
         <li>
           <p><em>Read:</em> CAST Section 1.2.6 - Multilevel Data. <mdash/> <url href="https://cast.idems.international/">CAST link</url></p>
@@ -105,7 +81,7 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
       <p>
         <ul>
           <li><p>How did you find the quiz on handling multilevel data?</p></li>
-          <li><p>If the data were stored in one data frame instead of three, what columns (markers) would you need to preserve the levels (e.g., SchoolID, ClassID, StudentID)? What might you gain or l[...]
+          <li><p>If the data were stored in one data frame instead of three, what columns (markers) would you need to preserve the levels (e.g., SchoolID, ClassID, StudentID)? What might you gain or lose?</p></li>
           <li><p>Share any questions or <q>gotchas</q> you noticed.</p></li>
           <li><p>Post any questions or comments in this forum.</p></li>
         </ul>
@@ -122,7 +98,7 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
     <paragraphs>
       <title>Discussion Board 1 Forum</title>
       <p>
-        CAST labels multilevel data as <q>advanced</q>, yet it is the first topic in this foundational course. Why do you think we introduce it so early? What advantages does starting with multilevel [...]
+        CAST labels multilevel data as <q>advanced</q>, yet it is the first topic in this foundational course. Why do you think we introduce it so early? What advantages does starting with multilevel thinking give us when working with real-world data?
       </p>
     </paragraphs>
     
@@ -132,7 +108,7 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
         Below are three prompts. Start a post relating to at least one of these three. In addition, respond to at least two other posts.
       </p>
       <p>
-        Start one new thread responding to A, B, or C. Reply to at least two classmates <mdash/> e.g., by asking a clarifying question or suggesting an additional level/summary they could try. Keep re[...]
+        Start one new thread responding to A, B, or C. Reply to at least two classmates <mdash/> e.g., by asking a clarifying question or suggesting an additional level/summary they could try. Keep replies constructive (50<ndash/>100 words each).
       </p>
       
       <p>
@@ -162,7 +138,7 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
         <em>Prompt C: Why it Matters</em>
       </p>
       <p>
-        Think of an example from your own life or work where information could be grouped at more than one level (e.g., sports team statistics, sales data by store and region, student results by class[...]
+        Think of an example from your own life or work where information could be grouped at more than one level (e.g., sports team statistics, sales data by store and region, student results by class and district).
         <ul>
           <li><p>Describe the two or more levels.</p></li>
           <li><p>Explain why looking at both levels might be important in understanding the data accurately.</p></li>
@@ -174,7 +150,7 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
   <subsection xml:id="subsec-multilevel-attempt">
     <title>Attempt</title>
     <p>
-      Practise reading multilevel data by telling the story of a single household using all four MICS Kenya files. Keep it simple: no joins, no pivots, no graphs <mdash/> just careful look-ups guided [...]
+      Practise reading multilevel data by telling the story of a single household using all four MICS Kenya files. Keep it simple: no joins, no pivots, no graphs <mdash/> just careful look-ups guided by the metadata.
     </p>
     
     <paragraphs>
@@ -194,7 +170,7 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
     <paragraphs>
       <title>Key idea</title>
       <p>
-        The column <c>HID</c> is a unique household ID that appears in all four files. If <c>HID</c> is not present in a file, use the household identifiers noted in the metadata, e.g., cluster + hous[...]
+        The column <c>HID</c> is a unique household ID that appears in all four files. If <c>HID</c> is not present in a file, use the household identifiers noted in the metadata, e.g., cluster + household.
       </p>
     </paragraphs>
     
@@ -207,7 +183,7 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
         Be level-aware: household facts come from the Households file; person facts from the Members file; the woman's facts from the Women file; under-5 facts from the Children file.
       </p>
       <p>
-        <em>Submission:</em> Upload a document or plain text containing your 150<ndash/>250 word report, and a short <q>Variables used</q> list (just the codes you looked at, e.g., HI10, HL4A, MELEVEL[...]
+        <em>Submission:</em> Upload a document or plain text containing your 150<ndash/>250 word report, and a short <q>Variables used</q> list (just the codes you looked at, e.g., HI10, HL4A, MELEVEL, IM1).
       </p>
     </paragraphs>
     
@@ -217,15 +193,15 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
         <em>Style only <mdash/> pick whichever variables you'd like, and choose a different household ID.</em>
       </p>
       <p>
-        HID 135050 had an interview completed on 19 Sep 2000. The household has 6 members, including 1 eligible woman and 2 under-5s. The roster lists 3 females and 3 males: two adults (head and spous[...]
+        HID 135050 had an interview completed on 19 Sep 2000. The household has 6 members, including 1 eligible woman and 2 under-5s. The roster lists 3 females and 3 males: two adults (head and spouse, 29 and 31) and four children aged 1, 5, 7, 8; the 7- and 8-year-olds are currently in school. The interviewed woman's education is Secondary+. Both under-5s have vaccination cards seen; the 5-year-old attends early learning with 25 hours in the last week.
       </p>
       <p>
         <em>Codes used:</em>
         <ul>
-          <li><p>From the household data: <c>HID</c> for the ID; <c>HI3D</c>, <c>HI3M</c>, <c>HI3Y</c> for the date; <c>HI10</c> for the result of interview; <c>HIMEM</c> for the number of members in [...]
+          <li><p>From the household data: <c>HID</c> for the ID; <c>HI3D</c>, <c>HI3M</c>, <c>HI3Y</c> for the date; <c>HI10</c> for the result of interview; <c>HIMEM</c> for the number of members in the household; <c>HI11</c> for the number of eligible women; <c>HI13</c> for eligible children.</p></li>
           <li><p>From the household members data: <c>HID</c> for the ID; <c>HL3</c> for sex; <c>HL4A</c> for relationship; <c>HL4</c> for age; <c>ED15</c> for school.</p></li>
           <li><p>From the women data: <c>HID</c> for the ID; <c>ED15</c> for highest school grade.</p></li>
-          <li><p>From the children data: <c>HID</c> for the ID; <c>HL3</c> for sex; <c>BR8</c> for early learning attendance; <c>BR9</c> for hours of early learning in last 7 days; <c>IM1</c> for the [...]
+          <li><p>From the children data: <c>HID</c> for the ID; <c>HL3</c> for sex; <c>BR8</c> for early learning attendance; <c>BR9</c> for hours of early learning in last 7 days; <c>IM1</c> for the vaccination card.</p></li>
         </ul>
       </p>
     </paragraphs>
@@ -243,4 +219,5 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
       </p>
     </paragraphs>
   </subsection>
+
 </section>
