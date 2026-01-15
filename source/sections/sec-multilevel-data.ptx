@@ -30,21 +30,42 @@ Bickel, P.J., Hammel, E.A. and O'Connell, J.W., 1975. Sex Bias in Graduate Admis
 <aside xml:id="aside-multilevel-kidney-stones">
   <title>This mistake isn't rare. Here's another time it happened.</title>
 
-  <p>
-    In the 1980s, researchers compared two surgical treatments for kidney stones: open surgery and percutaneous nephrolithotomy. When all patients were analysed together, percutaneous nephrolithotomy appeared to be more successful overall. On the surface, it looked like the better treatment.
-  </p>
+<p>
+  In the early 1980s, surgeons were trying to decide how best to treat kidney stones. Two procedures were in use.
+One was open surgery: invasive, difficult, but familiar. The other was newer and less invasive, called percutaneous nephrolithotomy.
+It promised quicker recovery and, many hoped, better results.
+</p>
 
-  <p>
-    But kidney stones vary in size, and size matters. When the researchers separated patients into two groups—those with small stones and those with large stones—the picture changed. Within both groups, open surgery had higher success rates. It worked better for small stones, and it also worked better for large stones.
-  </p>
 
-  <p>
-    The apparent contradiction came from how treatments were assigned. Patients with small stones were much more likely to receive percutaneous nephrolithotomy, while patients with large or complex stones were more likely to receive open surgery. When stone size was ignored and all patients were combined into one analysis, the treatment taking on the harder cases appeared to perform worse.
-  </p>
+<p>
+  When researchers looked at the outcomes across all patients, the answer seemed clear. Percutaneous nephrolithotomy appeared to work better overall.
+More patients were successfully treated. On the surface, it looked like the obvious choice.
+</p>
 
-  <p>
-    <em>Takeaway:</em> When outcomes depend on an underlying grouping—such as disease severity—combining data across those groups can reverse the apparent effect of a treatment.
-  </p>
+
+<p>
+  But kidney stones are not all the same. Some are small and relatively easy to remove. Others are large, multiple, or deeply embedded, and far harder to treat.
+When the researchers paused and looked more closely, they separated the patients into two groups: those with small stones and those with large stones.
+</p>
+
+
+<p>
+  The story changed. Within each group, open surgery actually had higher success rates. It worked better for patients with small stones, and it also worked
+better for patients with large stones. The treatment that looked worse overall was performing better in every comparable situation.
+</p>
+
+
+<p>
+  The contradiction came from how treatments were used in practice. Patients with small stones were far more likely to receive the newer, less invasive procedure.
+Patients with large or complex stones were far more likely to be sent for open surgery. When all patients were lumped together, the procedure taking on the hardest
+cases appeared to perform worse, even though it was more effective when like was compared with like.
+</p>
+
+
+<p>
+  <em>  Takeaway:</em> This is an example of multilevel data. Patients are grouped by stone size, and conclusions change depending on which level we look at.
+Ignoring that structure doesn’t simplify the analysis: it distorts it.
+</p>
 
   <p>
     <em>Source: Bonovas S, Piovani D. Simpson's Paradox in Clinical Research: A Cautionary Tale. J Clin Med. 2023 Feb 18;12(4):1633. doi: 10.3390/jcm12041633. PMID: 36836181; PMCID: PMC9960320.</em>
