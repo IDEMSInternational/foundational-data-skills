@@ -17,12 +17,15 @@
 
   <titlepage>
     <titlepage-items/>
+  </titlepage>
+
+<abstract>
   <p>
     This book has moved to a new location.
     Please visit
     <url href="https://pretextbooks.github.io/iwd">https://pretextbooks.github.io/iwd</url>.
   </p>
-  </titlepage>
+</abstract>
 
 </frontmatter>
 
